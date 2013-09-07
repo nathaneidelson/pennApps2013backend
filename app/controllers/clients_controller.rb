@@ -1,5 +1,6 @@
 class ClientsController < ApplicationController
 
+  respond_to :json
   require 'json'
 
   def getBatchedJSONData

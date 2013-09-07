@@ -1,7 +1,8 @@
 <h1>File#index</h1>
 
 <% @assets.each_with_index do |asset| %>
-    <a href=<%= "http://localhost:3000/files/#{asset.id}/edit" %>> <%= asset.name %></a>
+
+    <a href="<%= url_for :action => 'edit', :id => asset.id %>"> <%= asset.name %></a>
 
 <% end %>
 

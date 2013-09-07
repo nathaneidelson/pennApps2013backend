@@ -20,13 +20,12 @@ class FilesController < ApplicationController
 
     @asset = JsonAsset.find(params[:id])
 
-    if !session[:token] || Client.find_by_token(session[:token]).json_assets.include?(@asset)
-      params = nil
-      redirect_to :controller => 'users', :action => 'new'
+    if !session[:token] || @asset.client != Client.find_by_token(session[:token])
+      redirect_to :controller => 'clients', :action => 'new'
     end
 
-
   end
+
 
   def save
 

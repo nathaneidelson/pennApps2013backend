@@ -1,11 +1,29 @@
 class ClientsController < ApplicationController
 
-  def index
+  require 'json'
+
+  def getBatchedJSONData
+
+    @client = Client.where(:token => params[:token]).first
+
+    response = Hash.new
+
+    response['appearance'] = JSON.parse(@client.json_assets.where(:name => 'appearance').first.content)
+
+    response['strings'] = JSON.parse(@client.json_assets.where(:name => 'strings').first.content)
+
+    response['images'] = JSON.parse(@client.json_assets.where(:name => 'images').first.content)
+
+    response['code'] = JSON.parse(@client.json_assets.where(:name => 'code').first.content)
+
+    respond_with(response)
 
   end
 
 
+
   def new
+
     if session[:token]
       @token = session[:token]
     end

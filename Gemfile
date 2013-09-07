@@ -4,10 +4,12 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# gem 'sqlite3'
 
 # Added by Nathan
 
+gem 'pg'
+gem 'unicorn'
 gem 'simple_form'
 gem 'protected_attributes'
 

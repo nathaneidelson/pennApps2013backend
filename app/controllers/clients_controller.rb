@@ -14,7 +14,7 @@ class ClientsController < ApplicationController
 
     response['images'] = JSON.parse(@client.json_assets.where(:name => 'images').first.content)
 
-    response['code'] = JSON.parse(@client.json_assets.where(:name => 'code').first.content)
+    response['code'] = @client.json_assets.where(:name => 'code').first.content
 
     respond_with(response)
 

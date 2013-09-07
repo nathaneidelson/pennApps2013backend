@@ -14,6 +14,7 @@ Backend::Application.routes.draw do
   get 'clients/create' => 'clients#create'
   get 'clients/new' => 'clients#new'
 
+  get 'clients/getBatchedJSONData' => 'clients#getBatchedJSONData'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -1,0 +1,11 @@
+<h1>Client#new</h1>
+<span><%= url_for :controller => 'clients', :action => 'create' %></span>
+
+<form action="<%= url_for :controller => 'clients', :action => 'create' %>" method="get">
+
+  Your Token: <input name="token" type="text" value="<%= @token %>"><br>
+  (leave blank to create one)
+
+  <input type="submit" value="Submit">
+
+</form>

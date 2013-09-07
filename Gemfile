@@ -9,6 +9,7 @@ gem 'sqlite3'
 # Added by Nathan
 
 gem 'simple_form'
+gem 'protected_attributes'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'

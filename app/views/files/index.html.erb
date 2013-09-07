@@ -1,7 +1,7 @@
 <h1>File#index</h1>
 
-<% @fileNames.each_with_index do |fileName, index| %>
-    <a href=<%= "http://localhost:3000/files/#{index}/edit" %>> <%= fileName %></a>
+<% @assets.each_with_index do |asset| %>
+    <a href=<%= "http://localhost:3000/files/#{asset.id}/edit" %>> <%= asset.name %></a>
 
 <% end %>
 

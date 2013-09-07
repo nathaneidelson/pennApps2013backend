@@ -1,0 +1,18 @@
+<h1><%= @fileNames[@params[:id].to_i] %></h1>
+
+<form name="fileEditForm"
+      action="<%= url_for :controller => 'files', :action => 'save', :id => @params[:id].to_i %>"
+      method="get">
+
+  <textarea name="textarea" rows="50" cols="50"><%= @fileContents %></textarea>
+
+  <input type="submit" value="Save">
+
+  <span> <%= url_for :controller => 'files', :action => 'update', :id => @params[:id].to_i %></span>
+
+</form>
+
+
+
+
+

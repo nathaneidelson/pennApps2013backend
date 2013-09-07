@@ -1,0 +1,8 @@
+NSString *str = @"blah blah hsadkahdbsajkdnasd"
+
+- (void)thisIsAwesome
+{
+	return popSomeTags;
+}
+
+// comments for day yo!

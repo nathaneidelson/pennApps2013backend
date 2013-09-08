@@ -1,5 +1,6 @@
 class FilesController < ApplicationController
   # get contents of the file in @ so they can be displayed in view
+  require 'net/http'
 
   before_filter :setFileNames
 
@@ -32,6 +33,8 @@ class FilesController < ApplicationController
     @asset = JsonAsset.find(params[:id])
     @asset.content = params["textarea"]
     @asset.save()
+
+    Net::HTTP.get('pennapps-samplehook.herokuapp.com', 'notifyAll')
 
     redirect_to :action => 'index'
 

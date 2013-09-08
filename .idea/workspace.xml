@@ -6,10 +6,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/assets/code" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/assets/images" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/assets/strings" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130907184949_create_clients.rb" afterPath="$PROJECT_DIR$/db/migrate/20130907184949_create_clients.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/client.rb" afterPath="$PROJECT_DIR$/app/models/client.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/clients_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/clients_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/files_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/files_controller.rb" />
     </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +25,7 @@
     <file path="/new.html.erb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378603207417" ignored="false" />
     <file path="/token_controller.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378579269175" ignored="false" />
     <file path="/client.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378612433944" ignored="false" />
-    <file path="/clients_controller.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378612670220" ignored="false" />
+    <file path="/clients_controller.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378613894716" ignored="false" />
     <file path="/20130907181749_create_json_assets.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378585520720" ignored="false" />
     <file path="$PROJECT_DIR$/../samplehook/app/controllers/users_controller.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378611010215" ignored="false" />
     <file path="/users_controller.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378611009872" ignored="false" />
@@ -85,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clients_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="clients_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/clients_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="79" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
+            <state line="47" column="70" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.5376712">
               <folding />
             </state>
           </provider>
@@ -121,10 +118,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/files/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="76" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0528169">
+            <state line="16" column="58" selection-start="306" selection-end="306" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
@@ -162,13 +159,13 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20130907184949_create_clients.rb" />
         <option value="$PROJECT_DIR$/app/models/client.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/clients_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/files_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/clients_controller.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="235" />
+    <option name="x" value="134" />
     <option name="y" value="22" />
     <option name="width" value="1413" />
     <option name="height" value="1024" />
@@ -622,7 +619,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="235" y="22" width="1413" height="1024" extended-state="0" />
+    <frame x="134" y="22" width="1413" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -776,6 +773,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="38" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/files/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="58" selection-start="306" selection-end="306" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/files_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="30" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0">
@@ -792,21 +803,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/clients_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="79" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/client.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="38" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/files/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="76" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0528169">
+        <state line="47" column="70" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.5376712">
           <folding />
         </state>
       </provider>

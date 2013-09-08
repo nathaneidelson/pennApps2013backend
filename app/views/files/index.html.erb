@@ -1,8 +1,9 @@
-<h1>File index</h1>
+<h1>JSON Asset Index</h1>
 
+<div class="assetLinks">
+	
 <% @assets.each_with_index do |asset| %>
-
     <a href="<%= url_for :action => 'edit', :id => asset.id %>"> <%= asset.name %></a>
-
 <% end %>
 
+</div>

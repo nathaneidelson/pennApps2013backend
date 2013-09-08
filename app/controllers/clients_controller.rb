@@ -40,6 +40,9 @@ class ClientsController < ApplicationController
     if (!@client.nil?)
 
       session[:token] = params[:token]
+      @client.hook_url = "http://pennapps-samplehook.herokuapp.com/users/notifyAll"
+      @client.save()
+
       redirect_to :controller => 'files', :action => 'index'
 
     else

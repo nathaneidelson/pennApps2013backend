@@ -31,11 +31,12 @@ class FilesController < ApplicationController
 
   def save
 
+    @client = Client.find_by_token(session[:token])
     @asset = JsonAsset.find(params[:id])
     @asset.content = params["textarea"]
     @asset.save()
 
-    uri = URI.parse("http://pennapps-samplehook.herokuapp.com/users/notifyAll")
+    uri = URI.parse(@client.hook_url)
 
     Net::HTTP.get(uri)
 

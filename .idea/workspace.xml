@@ -7,8 +7,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/assets/images" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/assets/strings" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/files_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/files_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/clients/new.html.erb" afterPath="$PROJECT_DIR$/app/views/clients/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +19,7 @@
     <file path="/file_controller.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378567555715" ignored="false" />
     <file path="/edit.html.erb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378587809106" ignored="false" />
     <file path="/routes.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378608449980" ignored="false" />
-    <file path="/files_controller.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378608701395" ignored="false" />
+    <file path="/files_controller.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378610209202" ignored="false" />
     <file path="/json_asset.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378586409610" ignored="false" />
     <file path="/seeds.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378607829717" ignored="false" />
     <file path="/new.html.erb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378603207417" ignored="false" />
@@ -29,13 +27,14 @@
     <file path="/client.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378585376235" ignored="false" />
     <file path="/clients_controller.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378599791179" ignored="false" />
     <file path="/20130907181749_create_json_assets.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378585520720" ignored="false" />
-    <file path="$PROJECT_DIR$/../samplehook/app/controllers/users_controller.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378609105332" ignored="false" />
-    <file path="/users_controller.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378609102579" ignored="false" />
+    <file path="$PROJECT_DIR$/../samplehook/app/controllers/users_controller.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378610013347" ignored="false" />
+    <file path="/users_controller.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378610010115" ignored="false" />
     <file path="$PROJECT_DIR$/../samplehook/Gemfile" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378607163931" ignored="false" />
     <file path="$PROJECT_DIR$/../samplehook/db/schema.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378608311503" ignored="false" />
     <file path="$PROJECT_DIR$/../samplehook/db/seeds.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378609055780" ignored="false" />
     <file path="$PROJECT_DIR$/../samplehook/config/routes.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378608450320" ignored="false" />
     <file path="/Gemfile" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378608742757" ignored="false" />
+    <file path="$PROJECT_DIR$/../samplehook/app/models/user.rb" changelist="f47346f4-8443-43f4-a60c-90999c6589fb" time="1378609988907" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +54,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="files_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="files_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/files_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="124" selection-end="132" vertical-scroll-proportion="0.0">
+            <state line="41" column="34" selection-start="867" selection-end="867" vertical-scroll-proportion="0.71263033">
               <folding />
             </state>
           </provider>
@@ -73,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/files/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="37" selection-start="162" selection-end="162" vertical-scroll-proportion="0.14302741">
+            <state line="8" column="39" selection-start="162" selection-end="162" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
@@ -132,14 +131,14 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/clients_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/clients/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/files_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/controllers/files_controller.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="780" />
-    <option name="y" value="22" />
+    <option name="x" value="328" />
+    <option name="y" value="34" />
     <option name="width" value="900" />
     <option name="height" value="1024" />
   </component>
@@ -592,7 +591,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="780" y="22" width="900" height="1024" extended-state="0" />
+    <frame x="328" y="34" width="900" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -716,13 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/files_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="124" selection-end="132" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/json_asset.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="20" selection-start="109" selection-end="109" vertical-scroll-proportion="0.08792497">
@@ -751,13 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/client.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="55" selection-start="86" selection-end="86" vertical-scroll-proportion="0.08561644">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="26" selection-start="282" selection-end="282" vertical-scroll-proportion="0.26071844">
@@ -772,9 +757,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="58" selection-start="86" selection-end="86" vertical-scroll-proportion="0.08561644">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/files/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="162" selection-end="162" vertical-scroll-proportion="0.14302741">
+        <state line="8" column="39" selection-start="162" selection-end="162" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/files_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="34" selection-start="867" selection-end="867" vertical-scroll-proportion="0.71263033">
           <folding />
         </state>
       </provider>

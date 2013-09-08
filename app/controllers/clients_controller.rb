@@ -17,10 +17,11 @@ class ClientsController < ApplicationController
 
     response['code'] = @client.json_assets.where(:name => 'code').first.content
 
-    respond_with(response)
+    p response
+
+    respond_with(response, :location => 'nil')
 
   end
-
 
 
   def new
